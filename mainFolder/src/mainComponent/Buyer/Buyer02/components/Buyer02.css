@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+.main-buyer02{
+  /* height: 100vh;
+  width: 100vw; */
+  background-color:#403f3d;
+}
+.container-buyer02{
+  height: 280px;
+  width: 100%;
+  /* background-color: rgba(0, 0, 0, 0.432); */
+  display: flex;
+  justify-content: start;
+  gap: 5%;
+  align-items: center;
+  white-space: nowrap;
+  overflow: auto;
+  overflow-y: hidden;
+  padding-left: 13px;
+}
+.container-buyer02::-webkit-scrollbar{
+  display: none;
+}
+.card-buyer02{
+  flex-shrink: 0;
+  border-radius: 15px;
+  height: 250px;
+  width: 260px;
+  background-color: #f2f1ef;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.card-img-buyer02{
+  height: 180px;
+  width: 250px;
+  /* border-radius: 15px; */
+  background-color: #b1a6a4;
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-title-buyer02{
+  height: 50px;
+  width: 250px;
+  /* border-radius: 15px; */
+  background-color: #d8cfd0;
+  border-radius: 0px 0px 10px 10px;
+  padding: 5px;
+}
+.abt-title-buyer02{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.abt-title-buyer02 h3,h4{
+  color: #403f3d;
+  font-size: 14px;
+  font-weight: 300;
+}
+.loc-buyer02{
+  margin-top: 2px;
+  margin-left: 2px;
+}

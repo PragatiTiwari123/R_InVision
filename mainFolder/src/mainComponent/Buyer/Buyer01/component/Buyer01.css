@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.main{
+    display: flex;
+}
+.drop-down{
+  position: absolute;
+  color: #212121;
+  bottom: 3%;
+  right: 2%;
+}
+.left-div{
+    height: 100vh;
+    width: 75%;
+    /* background-color: #212121; */
+    position: relative;
+}
+.text{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgba(0, 128, 128, 0.185); */
+}
+.main-text{
+    height: 400px;
+    width: 100%;
+    /* background-color: #fff0feb6; */
+    /* color: #212121; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-text .heading{
+    margin: 10px 0px;
+}
+.main-text .sub-heading{
+    margin: 10px 0px;
+}
+.main-text h2,h3{
+    font-size: 80px;
+    font-weight: 300;
+}
+.main-text h6{
+    font-size: 22px;
+    font-weight: 300;
+}
+.right-div{
+    height: 100vh;
+    width: 25%;
+    /* background-color: #fff0fe; */
+    padding: 10px 0px;
+
+}
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    align-items: center;
+    white-space: nowrap;
+    overflow: auto;
+    /* overflow-y: hidden; */
+}
+.container::-webkit-scrollbar{
+  display: none;
+}
+.card{
+    flex-shrink: 0;
+    border-radius: 15px;
+    height: 280px;
+    width: 320px;
+    background-color: #f2f1ef;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .card-img{
+    height: 180px;
+    width:300px;
+    /* border-radius: 15px; */
+    background-color: #b1a6a4;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-title{
+    height: 70px;
+    width: 300px;
+    /* border-radius: 15px; */
+    background-color: #d8cfd0;
+    border-radius: 0px 0px 10px 10px;
+    padding: 5px;
+  }
+  .abt-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .abt-title h3,h4{
+    color: #212121;
+    font-weight: 300;
+    font-size: 20px;
+  }
+  .loc{
+    margin-top: 2px;
+    margin-left: 2px;
+  }
+  .search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    font-size: 20px;
+  }
+  .search-box{
+    padding: 10px;
+    width: 80%;
+    border-radius: 15px;
+  }
+  .icons{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
